@@ -70,3 +70,4 @@ values(1, "PRODEP 20 MG Cap",10),
 (3, "PERKINIL 5 MG Tab", 23),
 (4, "COMET 500 MG Tab", 43),
 (5, "DIOVAN 80 MG Tab", 40);
+
