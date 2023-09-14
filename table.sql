@@ -3,7 +3,7 @@ create table patients(
   patientFirstName varchar(255) not null,
   patinetLastName varchar(255),
   dateOfBirth date,
-  patientContactNumber varchar(11)
+  patientContactNumber varchar(11) 
   );
 create table doctorConsultants(
   doctorConsultantID int primary key,
@@ -39,6 +39,7 @@ create table diagnoses(
   patientID int,
   doctorConsultantID int,
   sicknessTypeID int,
+  diagnosisdate date,
   foreign key(patientID) references patients(patientID),
   foreign key(doctorConsultantID) references doctorConsultants(doctorConsultantID),
   foreign key(sicknessTypeID) references sicknessType(sicknessTypeID)
