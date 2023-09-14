@@ -77,3 +77,17 @@ values(6,1,1,'2023-09-15 10:00:00'),
 (8,3,5,'2023-09-15 20:00:00'),
 (9,1,5,'2023-09-16 10:00:00'),
 (10,4,4,'2023-09-17 11:00:00');
+insert into sicknessType(sicknessTypeID,sicknessTypeName)
+values(6, "Dengu fever");
+insert into medicines(medicineID,medicineName, medicineCost)
+values(6, "Acetaminophen", 40),
+(7, "Napa", 2),
+(8, "Paracetamol", 30),  
+(9, "Aspirin", 25);
+insert into medicineSicknessTypes(medicineID, sicknessTypeID)
+values(6,6),
+(7,6),
+(8,6),
+(9,6);
+
+
