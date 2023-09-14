@@ -30,7 +30,7 @@ create table appointments(
   appointmentID int primary key,
   patientID int,
   doctorConsultantID int,
-  appoitmentDateTime datetime,
+  appointmentDateTime datetime,
   foreign key(patientID) references patients(patientID),
   foreign key(doctorConsultantID) references doctorConsultants(doctorConsultantID)
   );
