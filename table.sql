@@ -26,8 +26,8 @@ create table medicines(
   medicineName varchar(255) not null,
   medicineCost decimal (10,2)
   );
-create table appoitment(
-  appoitmentID int primary key,
+create table appointments(
+  appointmentID int primary key,
   patientID int,
   doctorConsultantID int,
   appoitmentDateTime datetime,
