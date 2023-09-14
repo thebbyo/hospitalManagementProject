@@ -28,7 +28,7 @@ values(1, "PRODEP 20 MG Cap", 3.01),
 (3, "PERKINIL 5 MG Tab", 1.25),
 (4, "COMET 500 MG Tab", 4.02),
 (5, "DIOVAN 80 MG Tab", 40);
-insert into appoitments(appoitmentID,patientID, doctorConsultantID, appoitmentDateTime)
+insert into appointments(appointmentID,patientID, doctorConsultantID, appoitmentDateTime)
 values(1,1,2,'2023-09-15 10:00:00'),
 (2,2,2,'2023-09-15 15:30:00'),
 (3,3,2,'2023-09-15 20:00:00'),
