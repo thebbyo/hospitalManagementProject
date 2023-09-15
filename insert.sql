@@ -90,4 +90,25 @@ values(6,6),
 (8,6),
 (9,6);
 
+insert into patients(patientID,patientFirstName, patinetLastName,dateOfBirth, patientContactNumber )
+VALUES
+    (6, 'Tasnim', 'Ahmed', '1999-07-15', '01712345678'),
+    (7, 'Sarah', 'Wilson', '1985-04-20', '01698765432'),
+    (8, 'Aryan', 'Khan', '2002-02-10', '01876543210'),
+    (9, 'Mia', 'Johnson', '1997-12-03', '01987654321'),
+    (10, 'Ethan', 'Smith', '1998-05-28', '01456789012');
+insert into doctorConsultants(doctorConsultantID,doctorConsultantFirstName, doctorConsultantLastName,specialization, doctorConsultantContactNumber )
+VALUES
+    (6, 'Dr. Sarah', 'Smith', 'Orthopedics', '01612345678'),
+    (7, 'Dr. Michael', 'Johnson', 'Ophthalmology', '01798765432'),
+    (8, 'Dr. Olivia', 'Brown', 'Pediatrics', '01876543210'),
+    (9, 'Dr. Daniel', 'Garcia', 'Dermatology', '01987654321'),
+    (10, 'Dr. Emily', 'Lopez', 'Urology', '01456789012');
 
+insert into appointments(appointmentID,patientID, doctorConsultantID, appointmentDateTime)
+values(11,1,10,'2023-08-15 3:00:00'),
+(12,10,2,'2023-09-15 15:30:00'),
+(13,9,8,'2023-08-15 9:00:00'),
+(14,3,5,'2023-10-16 17:00:00'),
+(15,7,9,'2023-08-17 11:00:00'),
+(16,8,5,'2023-08-16 17:00:00');
